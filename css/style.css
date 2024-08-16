@@ -540,9 +540,6 @@ ul{
     .pretitle{
         text-align: center;
     }
-    .top{
-        min-height: 60vh;
-    }
     .goal__inner{
         flex-direction: column;
     }
