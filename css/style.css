@@ -333,7 +333,70 @@ ul{
     min-height: 700px;
     margin-top: 95px;
 }
-
+.range__items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 35px;
+    column-gap: 20px;
+}
+.range__item{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;
+}
+.range__item:hover{
+    background-color: #ffffffe1;
+    box-shadow: 0 0 22px #bbbbbb;
+}
+.range__item-img{
+    margin-bottom: 15px;
+}
+.range__item-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    min-height: 52px;
+}
+.range__item-text{
+    line-height: 1.2;
+    text-align: justify;
+}
+.benefits__inner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.benefits__inner-text{
+    font-size: 18px;
+}
+.benefits__inner-text span{
+    font-weight: 700;
+    font-size: 20px;
+}
+.receive__items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+.receive__item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.receive__item-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.receive__item-text{
+    text-align: justify;
+}
+.receive__item-text span{
+    font-weight: 700;
+}
 
 /* IT hardware and assesories */
 .hardware_top{
@@ -377,7 +440,15 @@ ul{
     min-height: 700px;
     margin-top: 95px;
 }
-
+.contacts__content-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contacts__content-title{
+    font-weight: 700;
+    font-size: 24px;
+}
 
 
 
@@ -403,6 +474,9 @@ ul{
         font-size: 14px;
     }
     .advantages__list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .range__items{
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -500,7 +574,10 @@ ul{
         width: 100%;
         height: 80px;
     }
-
+    .receive__items{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
 }
 @media (max-width: 640px){
     .advantages__list{
@@ -511,6 +588,9 @@ ul{
 @media (max-width: 524px){
     .section__padding{
         padding: 20px 0;
+    }
+    .range__items{
+        grid-template-columns: repeat(1, 1fr);
     }
     
 }
