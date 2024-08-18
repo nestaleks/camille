@@ -300,13 +300,6 @@ ul{
     grid-template-columns: repeat(3, 1fr);
     gap: 0 40px;
 }
-.footer__company-title,
-.footer__contacts-title,
-.footer__docs-title{
-    font-size: 24px;
-    margin-bottom: 50px;
-    font-weight: 400;
-}
 .footer__company-item{
     font-size: 16px;
     margin-bottom: 20px;
@@ -314,15 +307,16 @@ ul{
 .footer__docs{
     display: flex;
     flex-direction: column;
-    margin-top: 74px;
+    /* margin-top: 74px; */
 }
 .footer__privacy{
     font-size: 16px;
-
     margin-bottom: 20px;
 }
 .footer__copyright{
-    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
@@ -357,6 +351,8 @@ ul{
 }
 .range__item-img{
     margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
 }
 .range__item-title{
     font-size: 20px;
@@ -373,13 +369,17 @@ ul{
     flex-direction: column;
     gap: 20px;
 }
+.benefits__inner-item{
+    display: flex;
+    gap: 15px;
+}
+.benefits__inner-img{
+    width: 40px;
+    height: 40px;
+}
 .benefits__inner-text{
     font-size: 18px;
-    
-}
-.benefits__inner-text::before{
-    content: url(../images/icons/test-icon.svg);
-    padding-right: 5px;
+    margin: auto 0;
 }
 .benefits__inner-text span{
     font-weight: 700;
@@ -485,12 +485,17 @@ ul{
     gap: 20px;
     margin-bottom: 30px;
 }
+.choose__inner-item{
+    display: flex;
+    gap: 15px;
+}
+.choose__inner-img{
+    width: 40px;
+    height: 40px;
+}
 .choose__inner-text{
     font-size: 18px;
-}
-.choose__inner-text::before{
-    content: url(../images/icons/test-icon.svg);
-    padding-right: 5px;
+    margin: auto 0;
 }
 .choose__inner-text span{
     font-weight: 700;
@@ -877,7 +882,14 @@ ul{
     .advantages__list{
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    .footer__inner{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        row-gap: 40px;
+    }
+    .footer__copyright{
+        text-align: center;
+    }
 }
 @media (max-width: 524px){
     .section__padding{
