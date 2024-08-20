@@ -205,7 +205,7 @@ ul{
 }
 .services__inner{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 .services__inner-item{
@@ -885,6 +885,10 @@ ul{
     .advantages__list{
         grid-template-columns: repeat(1, 1fr);
     }
+    .services__inner{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+    }
     .footer__inner{
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
@@ -904,10 +908,7 @@ ul{
     
 }
 @media (max-width: 480px){
-    .services__inner{
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 25px;
-    }
+    
 }
 @media (max-width: 360px){
     .goal__text{
