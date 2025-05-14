@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/icons/
+
+# Sitemap
+Sitemap: https://www.goldencamille.com/sitemap.xml 
