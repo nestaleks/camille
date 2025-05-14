@@ -1,37 +1,3 @@
-# Enable URL rewriting
-RewriteEngine On
-
-# Set the base directory
-RewriteBase /
-
-# Remove trailing slashes
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)/$ /$1 [L,R=301]
-
-# Redirect index.html to root
-RewriteRule ^index\.html$ / [L,R=301]
-
-# Remove .html extension
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
-RewriteRule ^([^.]+)\.html$ /$1/ [L,R=301]
-
-# Internally map clean URLs to actual HTML files
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/$ $1.html [L]
-
-# Add WWW to domain 
-RewriteCond %{HTTP_HOST} ^goldencamille\.com [NC]
-RewriteRule ^(.*)$ https://www.goldencamille.com/$1 [L,R=301]
-
-# Force HTTPS
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Custom error pages
-ErrorDocument 404 /404.html
-ErrorDocument 500 /500.html
-
 # Enable browser caching
 <IfModule mod_expires.c>
   ExpiresActive On

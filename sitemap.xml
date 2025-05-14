@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.goldencamille.com/</loc>
+    <loc>https://www.goldencamille.com/index.html</loc>
     <lastmod>2024-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.goldencamille.com/wholesale-supplies/</loc>
+    <loc>https://www.goldencamille.com/wholesale_supplies.html</loc>
     <lastmod>2024-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.goldencamille.com/it-hardware-and-accessories/</loc>
+    <loc>https://www.goldencamille.com/it_hardware_and_accessories.html</loc>
     <lastmod>2024-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.goldencamille.com/it-engineering/</loc>
+    <loc>https://www.goldencamille.com/it_engineering.html</loc>
     <lastmod>2024-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.goldencamille.com/contacts/</loc>
+    <loc>https://www.goldencamille.com/contacts.html</loc>
     <lastmod>2024-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.goldencamille.com/user-agreement/</loc>
+    <loc>https://www.goldencamille.com/user_agreement.html</loc>
     <lastmod>2024-05-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.goldencamille.com/privacy-policy/</loc>
+    <loc>https://www.goldencamille.com/privacy_policy.html</loc>
     <lastmod>2024-05-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
